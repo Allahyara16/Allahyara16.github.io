@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+   {
+        <link rel="stylesheet" type="text/css" href="websitestyles.css">
+    
+    
+    <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    </script>
+    
+    }
+    
+<body>
+    
+    <Style> 
+  
+<div class="left"> 
+    
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://www.wikihow.com/Join-NASA">Join the NASA team</a>
+    <a href="Moon.html">Moon</a>
+    <a href="Mars.html">Mars</a>
+  </div>
+</div>
+   
+    
+    <h1> Wellcome to NASA space.</h1>     
+<p>How can we help.</p>
+   
+ 
+    <p>Moon link</p>
+    <a href="Moon.html">Do you wanna go to Moon?.</a>
+    <a href="https://www.universetoday.com/60072/what-is-a-moon/"> this is a moon link</a>
+    
+    
+    
+    <p>Mars link</p>
+    <a href="Mars.html">Do you wanna go to Mars.</a>
+    <a href="https://www.space.com/mars-exploration-2020s-alien-life-colonization.html">this is a Mars link</a>
+
+    
+    
+    <a href="https://www.wikihow.com/Join-NASA">This link help you to joint our NASA team</a>
+    
+   
+    
+    <P>The space ship</P>
+
+    <a href="https://coolmaterial.com/home/lego-space-shuttle/">This is a space ship link</a>
+   
+</div>
+   
+    
+</body>
+</html>
+

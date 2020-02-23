@@ -1,0 +1,25 @@
+.TopLeft, .TopRight {
+    Float: Left;
+    width: 25%;
+    background-color:aquamarine;
+        height: 100px;
+    
+}
+
+.Main {
+    Float: left;
+    width: 50%;
+    background-color: yellow;
+    height: 10px;
+    
+}
+
+Media screen and (Max-width: 800px);
+
+.TopLeft, .Main, .TopRight {
+    width: 100%; /* the width is 
+    100% when the vieport is 800px
+    or smaller */
+  }
+
+}
